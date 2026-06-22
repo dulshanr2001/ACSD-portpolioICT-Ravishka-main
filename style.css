@@ -13,3 +13,12 @@
     scroll-behavior: smooth; 
     font-family: "Nunito", sans-serif; /* Requirement 1: Applying Nunito font globally */
 }
+
+/* Root Variables - Requirement 2: Defining colors, including semi-transparent color */
+:root {
+    --bg-color: #191f36; /* Primary background color */
+    --snd-bg-color: #262B40; /* Secondary background color */
+    --text-color: #fff; /* Text color */
+    --main-color: #59B2F4; /* Main accent color */
+    --semi-transparent: rgba(89, 178, 244, 0.5); /* Requirement 2: Semi-transparent color */
+}
