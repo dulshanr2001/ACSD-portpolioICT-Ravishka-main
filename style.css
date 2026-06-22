@@ -1,2 +1,15 @@
 /* Google Fonts Import - Requirement 1: Using Google Fonts (Nunito) for consistent typography across the site */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); 
+
+
+/* Reset and Global Styles - Requirement 21: Good indentation for readability */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth; 
+    font-family: "Nunito", sans-serif; /* Requirement 1: Applying Nunito font globally */
+}
