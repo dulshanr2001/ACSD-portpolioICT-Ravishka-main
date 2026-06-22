@@ -22,3 +22,19 @@
     --main-color: #59B2F4; /* Main accent color */
     --semi-transparent: rgba(89, 178, 244, 0.5); /* Requirement 2: Semi-transparent color */
 }
+
+/* Base Styles */
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 50vh; /* Reduced for better balance */
+    padding: 5rem 9% 2rem;
+}
