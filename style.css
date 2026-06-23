@@ -235,3 +235,56 @@ span {
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
+
+/*============= Skills Section ============*/
+
+.skills {
+    background: var(--snd-bg-color);
+    padding: 5rem 9%;
+}
+
+.skills h2 {
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-box {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 1.5rem; /* Requirement 15: Rounded corners */
+    text-align: center;
+    border: 0.2rem solid var(--main-color); /* Requirement 14: Border */
+    box-shadow: 0 0 1rem var(--semi-transparent); /* Requirement 3: Shadow with semi-transparent color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Requirement 18: Transition */
+}
+
+.skill-box:hover {
+    transform: scale(1.05); /* Requirement 17: Transform on hover */
+    box-shadow: 0 0 2rem var(--main-color); /* Requirement 3: Enhanced shadow on hover */
+}
+
+.skill-box i {
+    font-size: 4rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.skill-box h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Requirement 4: Text effect (text-shadow) */
+}
+
+.skill-box p {
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
