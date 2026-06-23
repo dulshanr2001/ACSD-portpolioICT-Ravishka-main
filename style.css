@@ -60,3 +60,10 @@ section {
     font-weight: 700;
     cursor: default;
 }
+/* Navbar Style */
+.navbar > a { /* Requirement 8: Child combinator */
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 700;
+}
