@@ -5,3 +5,12 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('fa-xmark'); // Toggles the X icon for closing the navbar
     navbar.classList.toggle('active');     // Toggles the active class for the navbar
 };
+
+/*============== Typed js ===============*/
+const typed = new Typed('.multiple-text', {
+    strings: [ 'Fullstack Developer', 'Web Developer', 'UI/UX Designer','Freelancer'], 
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true 
+});
