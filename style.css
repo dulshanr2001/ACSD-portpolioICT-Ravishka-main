@@ -85,3 +85,44 @@ section {
     color: var(--text-color);
     display: none;
 }
+
+/*======================== Home Design =============================*/
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Requirement 4: Text effect (text-shadow) */
+}
+
+.home-content h3:first-child { /* Requirement 9: Structural selector (first-child) */
+    color: var(--semi-transparent); /* Requirement 2: Using semi-transparent color */
+}
+
+.home-content h3:nth-of-type(2) { /* Requirement 11: Nth pseudo class */
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-img img {
+    width: 25vw;
+    border-radius: 70%; /* Requirement 15: Rounded corners */
+    box-shadow: 0 0 20px var(--main-color); /* Requirement 3: Shadow */
+    transition: 0.4s ease-in-out; /* Requirement 18: Transition */
+    margin: 10rem;
+    animation: floatImage 4s ease-in-out infinite; /* Requirement 19: Animation */
+}
