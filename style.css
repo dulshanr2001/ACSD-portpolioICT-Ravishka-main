@@ -67,3 +67,11 @@ section {
     margin-left: 4rem;
     font-weight: 700;
 }
+
+.navbar a:hover { /* Requirement 7: User action pseudo class (hover) */
+    color: yellow;
+}
+
+.navbar a:not(.active) { /* Requirement 10: Negation pseudo class */
+    opacity: 0.7;
+}
