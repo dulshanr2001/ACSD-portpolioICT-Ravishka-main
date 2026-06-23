@@ -126,3 +126,20 @@ span {
     margin: 10rem;
     animation: floatImage 4s ease-in-out infinite; /* Requirement 19: Animation */
 }
+/* Requirement 19: Animation keyframe for floating effect */
+@keyframes floatImage {
+    0% {
+        transform: translateY(0); /* Requirement 17: Transform */
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.home-content p {
+    font-size: 1.6rem;
+    margin: 3rem 1.5rem 0;
+}
