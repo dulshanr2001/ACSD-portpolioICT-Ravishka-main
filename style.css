@@ -186,3 +186,35 @@ span {
 .btn:hover {
     box-shadow: none;
 }
+
+/*============================== About Section =============================*/
+
+.about {
+    background: var(--snd-bg-color);
+    padding: 5rem 9%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-img img {
+    width: 25vw;
+    border-radius: 100%; /* Requirement 15: Rounded corners */
+    box-shadow: 0 0 20px var(--main-color); /* Requirement 3: Shadow */
+    transition: 0.4s ease-in-out; /* Requirement 18: Transition */
+    margin: 10rem;
+    animation: floatImage 4s ease-in-out infinite; /* Requirement 19: Animation */
+}
+
+.about-img img:hover {
+    transform: scale(1.1); /* Requirement 17: Transform on hover */
+    box-shadow: 0 0 4rem var(--main-color); /* Requirement 3: Enhanced shadow on hover */
+}
+
+.about-content {
+    flex: 1;
+}
