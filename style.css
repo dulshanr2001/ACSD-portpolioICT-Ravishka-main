@@ -38,3 +38,25 @@ section {
     min-height: 50vh; /* Reduced for better balance */
     padding: 5rem 9% 2rem;
 }
+
+/* Header Style - Requirement 16: Gradient background for header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: linear-gradient(to right, #191f36, #262B40); /* Requirement 16: Linear gradient */
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: default;
+}
