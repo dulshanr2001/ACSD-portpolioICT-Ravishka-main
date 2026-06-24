@@ -324,3 +324,16 @@ span {
     max-width: 380px;
     box-sizing: border-box;
 }
+
+.Projects-box::before { /* Requirement 6: Pseudo element with generated content */
+    content: "Project";
+    font-size: 1.8rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.Projects-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02); /* Requirement 17: Transform on hover */
+}
