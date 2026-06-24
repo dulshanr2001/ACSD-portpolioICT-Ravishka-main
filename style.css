@@ -337,3 +337,21 @@ span {
     border-color: var(--main-color);
     transform: scale(1.02); /* Requirement 17: Transform on hover */
 }
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 10px; /* Requirement 15: Rounded corners */
+}
+
+.Projects-box h3 {
+    font-size: 2.6rem;
+}
+
+.Projects-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    flex-grow: 1;
+}
