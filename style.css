@@ -396,3 +396,24 @@ span {
     margin: .7rem 0;
     border: 2px solid var(--text-color); /* Requirement 14: Border */
 }
+
+.Contact form .input-box input {
+    width: 49%;
+}
+
+.Contact form textarea {
+    resize: none;
+}
+
+.Contact form .input-box input:valid { /* Requirement 12: Validity pseudo class */
+    border-color: green;
+}
+
+.Contact form .input-box input:invalid { /* Requirement 12: Validity pseudo class */
+    border-color: red;
+}
+
+.Contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
