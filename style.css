@@ -442,3 +442,9 @@ span {
     border-radius: 0.8rem; /* Requirement 15: Rounded corners */
     transition: 0.5s ease; /* Requirement 18: Transition */
 }
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--main-color); /* Requirement 3: Shadow on hover */
+}
+
+/* Requirement 20: Specificity consideration - Using class selectors (.navbar, .btn) over ID selectors to maintain lower specificity and easier overrides. Variables in :root ensure consistent styling across the site. */
