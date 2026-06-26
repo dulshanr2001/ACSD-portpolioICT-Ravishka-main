@@ -417,3 +417,14 @@ span {
     margin-top: 2rem;
     cursor: pointer;
 }
+
+/*====================== Footer Section =============================*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--snd-bg-color);
+}
