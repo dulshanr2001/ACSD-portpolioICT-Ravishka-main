@@ -376,3 +376,23 @@ span {
     text-align: center;
     margin-bottom: 3rem;
 }
+
+.Contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Contact form .input-box input[type="text"], /* Requirement 5: Attribute selector */
+.Contact form .input-box input[type="email"], /* Requirement 5: Attribute selector */
+.Contact form .input-box input[type="tel"],
+.Contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: .8rem; /* Requirement 15: Rounded corners */
+    margin: .7rem 0;
+    border: 2px solid var(--text-color); /* Requirement 14: Border */
+}
