@@ -428,3 +428,17 @@ span {
     padding: 2rem 9%;
     background: var(--snd-bg-color);
 }
+
+.footer-text {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background: var(--main-color);
+    border-radius: 0.8rem; /* Requirement 15: Rounded corners */
+    transition: 0.5s ease; /* Requirement 18: Transition */
+}
