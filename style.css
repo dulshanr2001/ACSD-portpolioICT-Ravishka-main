@@ -448,3 +448,32 @@ span {
 }
 
 /* Requirement 20: Specificity consideration - Using class selectors (.navbar, .btn) over ID selectors to maintain lower specificity and easier overrides. Variables in :root ensure consistent styling across the site. */
+
+/* Media Queries for Responsiveness - Requirement 21: Good indentation */
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    section {
+        padding: 5rem 3%;
+    }
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img img {
+        width: 60vw; /* Adjusted for tablet */
+    }
+    .Projects {
+        padding: 7rem;
+    }
+    .Contact {
+        min-height: auto;
+    }
+}
