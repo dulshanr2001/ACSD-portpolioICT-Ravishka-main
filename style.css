@@ -355,3 +355,24 @@ span {
     margin: 1rem 0 3rem;
     flex-grow: 1;
 }
+
+/* ====================================== Contact Section ===================================*/
+
+.Contact {
+    background-color: var(--snd-bg-color);
+}
+
+.Contact h2 {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.2; /* Requirement 4: Text effect (line-height) */
+    margin-bottom: 2rem;
+    padding-top: 10rem;
+}
+
+.Contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
